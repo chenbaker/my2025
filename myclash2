@@ -1,0 +1,39 @@
+[custom]
+;设置规则标志位
+ruleset=✍️ myfqnotes,https://ghproxy.cn/https://raw.githubusercontent.com/chenbaker/my2025/refs/heads/main/myfqnotes.list
+ruleset=📲 Telegram,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+ruleset=💬 ChatGPT,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list
+ruleset=Ⓜ️ Copilot,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list
+ruleset=🚀 GitHub,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
+ruleset=📹 YouTube,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
+ruleset=🇬 谷歌服务,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
+ruleset=🎶 TikTok,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
+ruleset=🎭 Facebook,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Facebook/Facebook.list
+ruleset=📷 Instagram,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list
+ruleset=🎻 Spotify,https://ghproxy.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+ruleset=🐸 中国IP,[]GEOIP,CN,no-resolve
+ruleset=🎯 手动切换,[]FINAL
+;设置规则标志位
+ 
+;设置分组标志位
+custom_proxy_group=♻️ 全球直连`select`[]DIRECT
+custom_proxy_group=🚀️ 自动代理`url-test`.*`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🎯 手动切换`select`[]♻️ 全球直连`[]🚀️ 自动代理
+
+custom_proxy_group=✍️ myfqnotes`select`[]🚀️ 自动代理
+custom_proxy_group=📲 Telegram`select`[]🚀️ 自动代理
+custom_proxy_group=💬 ChatGPT`select`[]🚀️ 自动代理
+custom_proxy_group=Ⓜ️ Copilot`select`[]🚀️ 自动代理
+custom_proxy_group=🚀 GitHub`select`[]🚀️ 自动代理
+custom_proxy_group=📹 YouTube`select`[]🚀️ 自动代理
+custom_proxy_group=🇬 谷歌服务`select`[]🚀️ 自动代理
+custom_proxy_group=🎶 TikTok`select`[]🚀️ 自动代理
+custom_proxy_group=🎭 Facebook`select`[]🚀️ 自动代理
+custom_proxy_group=📷 Instagram`select`[]🚀️ 自动代理
+custom_proxy_group=🎻 Spotify`select`[]🚀️ 自动代理
+custom_proxy_group=🐸 中国IP`select`[]♻️ 全球直连
+
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true

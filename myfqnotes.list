@@ -47,3 +47,19 @@ DOMAIN,analytics.adjust.com
 DOMAIN,mobile.events.data.microsoft.com
 DOMAIN,ocsp.digicert.com
 DOMAIN,graph.microsoft.com
+# CYG copilot
+DOMAIN,srtb.msn.com
+DOMAIN,cdn.sapphire.microsoftapp.net
+DOMAIN,sapphire.api.microsoftapp.net
+DOMAIN,edge.microsoft.com
+DOMAIN,ssl.bing.com
+DOMAIN,mobile.pipe.aria.microsoft.com
+DOMAIN,superapp.msn.com
+DOMAIN,weathercdn.sapphire.microsoftapp.net
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,bingclientmsa.sapphire.microsoftapp.net
+DOMAIN,assets.msn.com
+DOMAIN,dev.virtualearth.net
+DOMAIN,api.msn.com
+DOMAIN,cdn.sapphire.microsoftapp.net
+DOMAIN,self.events.data.microsoft.com

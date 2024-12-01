@@ -2,11 +2,10 @@
 # AUTHOR: cyg
 # REPO: https://github.com/chenbaker/my2025
 # UPDATED: 2024-07-31 02:11:31
-# DOMAIN-SUFFIX: 4
-# DOMAIN: 1
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 2
 # TOTAL: 4
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,bulianglin.com
 DOMAIN,www.qichiyu.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,bulianglin.com
